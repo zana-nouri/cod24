@@ -11,7 +11,8 @@
   --template-desktop: 0px 160px;
   --template-tablet: 0px 60px;
   --template-mobile: 0px 40px;
-  --color-black: rgb(96, 83, 83);
+  --color-black: #58585a;
+  --color-red: #c4161c;
 }
 
 /* _____________________________#Navbar */
@@ -50,7 +51,7 @@
 .item-nav a {
   text-decoration: none;
   color: var(--color-black);
-  border-left: 2px solid;
+  border-left: 2px solid var(--color-red);
   padding-left: 5px;
 }
 
